@@ -31,7 +31,7 @@ var MouseEvents = function() {
     this.mouseOver = function(){
       browser.actions().mouseMove(this.imgMouseOver).perform();
       this.imgMouseOver.click();
-      browser.sleep(10000);
+    
 
     }
 

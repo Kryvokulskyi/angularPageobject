@@ -4,7 +4,7 @@ exports.config = {
   capabilities: {
   'browserName': 'chrome'
 },
-  specs: ['spec.js', 'specEventHandler.js'],
+  specs: ['spec.js', 'specEventHandler.js', 'specKeyboardEvents.js'],
   jasmineNodeOpts: {
 		showColors: true,
 		defaultTimeoutInterval: 30000
